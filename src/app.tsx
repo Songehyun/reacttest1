@@ -8,3 +8,5 @@ const App: React.FC = () => {
     </div>
   );
 };
+
+ReactDOM.render(<App />, document.getElementById("root"));
