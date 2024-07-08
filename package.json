@@ -13,6 +13,7 @@
   "description": "",
   "devDependencies": {
     "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
     "ts-loader": "^9.5.1",
     "typescript": "^5.5.3",
     "webpack": "^5.92.1",
