@@ -8,5 +8,15 @@ module.exports = {
     filename: `${name}.bundle.js`,
     path: path.resolve(__dirname, "dist"),
   },
-  module: {},
+  module: {
+    rules: [
+      // 정규식
+      {
+        test: /\.ts$/, // 타스인지 확인할거야
+        use: "ts-loader",
+        exclude: /node_modules/,
+      },
+    ],
+  },
+  resolve: {},
 };
